@@ -1,0 +1,10 @@
+package com.example.expensetracker.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="expense")
+public class Expense {
+	
+}

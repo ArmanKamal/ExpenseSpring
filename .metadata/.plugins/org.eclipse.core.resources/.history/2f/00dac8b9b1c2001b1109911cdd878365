@@ -1,0 +1,8 @@
+package com.example.expensetracker.model;
+
+
+@Entity
+@Table(name="users")
+public class User {
+	
+}

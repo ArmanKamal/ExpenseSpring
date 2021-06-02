@@ -1,0 +1,16 @@
+package com.example.expensetracker.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name="expense")
+@NoArgsConstructor
+@AllArgsConstructor
+public class Expense {
+	@Id
+	private Long id;
+}

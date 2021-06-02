@@ -1,0 +1,5 @@
+package com.example.expensetracker.repository;
+
+public interface CategoryRepository {
+
+}
