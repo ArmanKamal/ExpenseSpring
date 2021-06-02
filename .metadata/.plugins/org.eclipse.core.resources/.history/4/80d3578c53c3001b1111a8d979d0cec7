@@ -26,7 +26,4 @@ public class CategoryService {
 	public Optional<Category> getSingleCategory(Long id) {
 		return this.categoryRepository.findById(id);
 	}
-	public Category createCategory(Category category){
-		return this.categoryRepository.save(category);
-	}
 }

@@ -19,7 +19,6 @@ public class Category {
 	
 	@NotNull
 	@Size(min = 2)
-	
 	private String name;
 	
 	
